@@ -11,6 +11,4 @@ COPY *.go ./
 
 RUN go build -o /th-test-stdout
 
-EXPOSE 8080
-
 CMD ["/th-test-stdout"]
